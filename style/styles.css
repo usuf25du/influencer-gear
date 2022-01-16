@@ -18,8 +18,30 @@ body {
 
 .head_main {
     text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
 }
 
+.button {
+    outline: 0px;
+    border: 0px;
+    padding: 10px 15px;
+    background-image: linear-gradient(90deg, #E02C6D, #ff008e);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 0 rebeccapurple;
+    position: relative;
+    top: 0;
+
+}
+
+.button:active {
+    top: 4px;
+    box-shadow: 0 3px 0 palevioletred;
+}
 
 .prebook {
     display: flex;
