@@ -40,7 +40,7 @@ body {
     width: 1110px;
     height: 270px;
     padding: 20px 0px;
-    align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -76,9 +76,18 @@ body {
 .container .collection .banner img {
     width: 225px;
     height: 224px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: auto;
+    padding-left: 20px;
 
 
 }
+
 
 .product_about {
     display: flex;
@@ -97,4 +106,36 @@ body {
 
 .fa-star.empty {
     color: gray;
+}
+
+.join_img img {
+    height: 170px;
+    width: 250px;
+
+}
+
+.footer {
+    position: relative;
+    width: 925px;
+    bottom: 5px;
+    left: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+.copy {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Poppins;
+
+}
+
+.copywrite {
+    font-size: 14px;
+    font-family: Manrope;
+
 }
